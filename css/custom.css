@@ -1,0 +1,42 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+video {
+    background: brown;
+    object-fit: cover;
+    width: 100%;
+    height: 700px;
+  }
+
+  .productvideo {
+    background: brown;
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+  }
+
+
+  
+  @media (max-width: 575px) {
+    video {
+    width: 100%;
+    height: 70vh;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .productvideo {
+    width: 100%;
+    height: 100%;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .mobi {
+    text-align: end;
+    }
+  }
+  /*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+  
